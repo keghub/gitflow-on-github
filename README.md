@@ -70,7 +70,7 @@ git push origin hotfix/an-urgent-fix
 9. In GitHub, in your fork page remove, the remote branch `hotfix/an-urgent-fix` for the hotfix
 
 ## Features
-According to Git flow guidelines, feature branches should be started from `develop` and merged into it when done. When finished, they should be merged into a release branch or, if you are skipping release branches, directly into `develop`.
+According to Git flow guidelines, feature branches should be started from `develop` and merged into it when done. When finished, they should be merged into the `develop` branch.
 
 Follow these steps when working on a new feature
 
@@ -94,5 +94,5 @@ git commit -am "This is a major breakthrough"
 git push origin feature/a-really-good-feature
 ```
 6. In GitHub, create a pull request from your fork to the source repo, having care of selecting `upstream/develop` as your target branch
-7. Have your amazing feature reviewed and merged into `release/1.1`
+7. Have your amazing feature reviewed and merged into the `develop` branch
 
